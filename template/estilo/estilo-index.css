@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+	width: 1440px;
+	margin: 0px auto;
+}
+
+body {
+	background-color: #dddddd;
+}
+
+#background-menu{
+	top: 0px;
+	width: 1440px;
+	height: 168.73px;
+	border: none;
+	position: fixed;
+	z-index: 9;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+#menu{
+	top: 0px;
+	width: 1440px;
+	height: 168.73px;
+	border: none;
+	position: fixed;
+	z-index: 10;
+}
+
+iframe{
+	width: 100%;
+}
+
+.home{
+    height: 930px;
+}
+
+.quem-somos{
+    height: 1020px;
+}
+
+.produtos{
+    height: 1150px;
+}
+
+.servicos{
+    height: 1450px;
+}
+
+.contato{
+    height: 1224px;
+}

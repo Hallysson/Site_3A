@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+	background-color: #dddddd;
+	width: 1440px;
+	margin: 0px;
+}
+/* 
+div#background-cabecalho{
+    width: 100%;
+    max-width: 1440px;
+    height: 220px;
+    background-color: #FFF;
+    filter: alpha(opacity=50);  For IE8 and earlier
+    opacity: 0.8;
+    -moz-opacity: 0.8; 
+}
+*/
+
+.background-menu{
+    position:fixed;
+    width: 100%;
+    max-width: 1440px;
+    background-color: red;
+}

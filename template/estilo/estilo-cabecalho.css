@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    width:85%;
+    top:0px;
+	background-color: #dddddd;
+	margin: auto;
+}
+
+header#cabecalho {
+    position:fixed;
+    width:100%;
+}
+
+.logo-3a{
+	position: absolute;
+    width:5%;
+    top: 24%;
+	left: 65.2%;
+}
+
+.background-menu{
+    top:0px;
+    width:85%;
+}
+
+nav#menu ul{
+	width: 50%;
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	left: 12%;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 1% 4.5%;
+	margin: 2px auto;
+	/* prefixer.com */
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	transition: background-color 1s;
+}

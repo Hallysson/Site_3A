@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+	width: 1440px;
+	margin: 0px;
+}
+
+.logo-3a{
+	position: fixed;
+    width:5%;
+    top: 20px;
+	left: 1100px;
+}
+
+.background-menu{
+    width:1440px;
+    top: 0px;
+    position: absolute;
+}
+
+nav#menu ul{
+	width: 900px;
+	list-style: none;
+	position: fixed;
+	top: 70px;
+	background-color: green;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 1% 2%;
+	margin: 2px auto;
+	/* prefixer.com */
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	transition: background-color 1s;
+}
